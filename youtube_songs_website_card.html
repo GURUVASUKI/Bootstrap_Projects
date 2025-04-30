@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>youtube Songs play list using card </title>
+    <style>
+      body{
+        font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      
+      .card-title{
+        color: white;
+      }
+      nav{
+        margin-bottom: 20px;
+        font-size: large;
+      }
+     
+    </style>
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="song_image/logo-gv.jpg" alt="" height="60px" width="70px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Songs</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=AY3Yea6hBbI">Hey Minnale</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=XMrZO7hH6sw">Vazhithunaiye</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=PsRka-zMTqo&pp=ygUJI25hdGhrYXQy">Naattu Koothu</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=WeZr-jBZfuY">Kombaa Un Kaada</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=5BJDFKs41pI">Sawadeeka</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=AiD6SOOBKZI">Manasilaayo</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=RgOEKdA2mlw">Water Packet</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=3rZay4I-meo">Urugi Urugi</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=AAq06bS8UZM">Golden Sparrow</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=_XhRghui8iE">Chillanjirukkiye</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=IZHGcU0U_W0">Matta</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=7CajfS_iVQM">Thaai Kelavi</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled active" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4" >
+        <div class="col">
+          <div class="card h-100" >
+            <img src="song_image/minnale.jpg" class="card-img-top" alt="..." height="250px" width="150px">
+            <div class="card-body" ><center>
+              <h5 class="card-title" style="background-color: rgb(51, 49, 49);">Hey Minnale</h5> </center>
+              <a href="https://www.youtube.com/watch?v=AY3Yea6hBbI" style="color: rgb(31, 28, 28);">Hey Minnalae Hey Minnalae En Kannilae Nenjilea Sollanaa Kannalae</a>
+    
+            </div>
+        
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="song_image/vazhil.jpg" class="card-img-top" alt="..." height="250px" width="150px">
+            <div class="card-body"><center>
+              <h5 class="card-title" style="background-color:rgb(51, 49, 49) ;">Vazhithunaiye</h5></center>
+              <a href="https://www.youtube.com/watch?v=XMrZO7hH6sw" style="color: rgb(31, 28, 28);">Vaanam parthu kidanthene Mazhayaai vanthu vizhundhaaye Vazhi thunaiyee….</a>            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="song_image/naatu.jpg" class="card-img-top" alt="..." height="250px" width="150px">
+            <div class="card-body"> <center>
+              <h5 class="card-title" style="background-color: rgb(51, 49, 49);">Naatu Koothu</h5> </center>
+              <a href="https://www.youtube.com/watch?v=PsRka-zMTqo&pp=ygUJI25hdGhrYXQy" style="color: rgb(31, 28, 28);">Naattu Naattu Naattu Naattu Naattu Naattu Kootha Kaattu</a>
+              
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="song_image/komba.jpg" class="card-img-top" alt="..." height="250px" width="150px">
+            <div class="card-body"><center>
+              <h5 class="card-title" style="background-color: rgb(51, 49, 49);">Kombaa Un Kaada</h5></center>
+              <a href="https://www.youtube.com/watch?v=WeZr-jBZfuY" style="color: rgb(31, 28, 28);">Kombaa un kaadaa Kootanum kaada Amma udan naanum Kondadungaada kondadungaada</a>
+            
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="song_image/sawadeeka.jpg" class="card-img-top" alt="..."height="250px" width="150px">
+            <div class="card-body"><center>
+              <h5 class="card-title" style="background-color: rgb(51, 49, 49);">Sawadeeka</h5></center>
+              <a href="https://www.youtube.com/watch?v=5BJDFKs41pI" style="color: rgb(31, 28, 28);"> Yei mariyacchi Yakko mariyaachi Kissa le khamba le Tripa le gripa le.. le lo</a>
+              
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="song_image/masilayo.jpg" class="card-img-top" alt="..." height="250px" width="150px">
+            <div class="card-body"><center>
+              <h5 class="card-title" style="background-color: rgb(51, 49, 49);">Manasilaayo</h5></center>
+              <a href="https://www.youtube.com/watch?v=AiD6SOOBKZI" style="color: rgb(31, 28, 28);">Thirichi vannalle therikkavittaan vannalle Thiruththi vaikkaan vannalle thittam undalle</a>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="song_image/waterpacket.jpg" class="card-img-top" alt="..." height="250px" width="150px">
+            <div class="card-body"><center>
+              <h5 class="card-title" style="background-color: rgb(51, 49, 49);">Water Packet</h5></center>
+              <a href="https://www.youtube.com/watch?v=RgOEKdA2mlw" style="color: rgb(31, 28, 28);">Nee irukkiriyae oalakottaayaa Summaa nadakkiriyae thavalakottaayaa</a>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="song_image/urugi.jpg" class="card-img-top" alt="..." height="250px" width="150px">
+            <div class="card-body"><center>
+              <h5 class="card-title" style="background-color: rgb(51, 49, 49);">Urugi Urugi</h5>
+              <a href="https://www.youtube.com/watch?v=3rZay4I-meo" style="color: rgb(31, 28, 28);">Urugi urugi ponadhadi En ullam yaan neeye Kurugi kurugi ponadhadi</a></center>
+            </div>
+            
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="song_image/Golds.jpg" class="card-img-top" alt="..." height="250px" width="150px">
+            <div class="card-body"><center>
+              <h5 class="card-title" style="background-color: rgb(51, 49, 49);">Golden Sparrow</h5></center>
+              <a href="https://www.youtube.com/watch?v=AAq06bS8UZM" style="color: rgb(31, 28, 28);">Golden sparrow en nenjula arrow Nee illadha life hey romba sorrow</a>
+            </div>  
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="song_image/chillan.jpg" class="card-img-top" alt="..." height="250px" width="150px">
+            <div class="card-body"><center>
+              <h5 class="card-title" style="background-color: rgb(51, 49, 49);">Chillanjirukkiye</h5></center>
+              <a href="https://www.youtube.com/watch?v=_XhRghui8iE" style="color: rgb(31, 28, 28);">Chillanjirukkiye En chillanjirukkiye Chillanjirukkiye Enna kollura arakkiye</a>
+            </div>
+            
+          </div>
+        </div><div class="col">
+          <div class="card h-100">
+            <img src="song_image/matta.jpg" class="card-img-top" alt="..." height="250px" width="150px">
+            <div class="card-body"><center>
+              <h5 class="card-title" style="background-color: rgb(51, 49, 49);">Matta</h5></center>
+              <a href="https://www.youtube.com/watch?v=IZHGcU0U_W0" style="color: rgb(31, 28, 28);">Enna nada Enna nada Yeri varaa jillukka Kannadaasan sona ponnu</a>
+            </div>
+            
+          </div>
+        </div><div class="col">
+          <div class="card h-100">
+            <img src="song_image/thaai kelavi.jpg" class="card-img-top" alt="..." height="250px" width="150px">
+            <div class="card-body"><center>
+              <h5 class="card-title" style="background-color: rgb(51, 49, 49);">Thaai Kelavi</h5></center>
+              <a href="https://www.youtube.com/watch?v=7CajfS_iVQM" style="color: rgb(31, 28, 28);">Thaai kelavi thaai kelavi thaai kelavi thaai kelavi</a>
+            </div>
+            
+          </div>
+        
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
